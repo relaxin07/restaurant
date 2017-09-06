@@ -1,0 +1,16 @@
+@import 'mixin';
+.bread{
+  padding: 80px 0 50px;
+  text-align: center;
+ 
+   .fa-folder{
+    font-size: 24px;
+  }
+  img{
+  	max-width: 100%;
+  	margin-left: 3px;
+  }
+}
+
+@include text()
+

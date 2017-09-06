@@ -1,0 +1,37 @@
+@import "_header";
+@import "_header-content";
+@import "_about-us";
+@import "_affordable.scss";
+@import "_product";
+@import "_place";
+@import "_beer";
+@import "_breakfast";
+@import "_bread";
+@import "_featur";
+@import "_dish";
+@import "_reserve";
+@import "_footer";
+@import "_media";
+
+@include content-page();
+@include height(100%);
+ul{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+	color:#fff;
+}
+body{
+	min-width: 320px;
+	font-size: 14px;
+	font-family: sans-serif;
+
+}
+.fixed{
+	position: fixed;
+	z-index: 1000;
+}
+
+

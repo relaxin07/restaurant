@@ -1,0 +1,61 @@
+@mixin height($height){
+	.container, .row {
+		height: $height;
+	}
+
+}
+@mixin content-page()
+{
+	
+	h2{
+		margin:auto;
+		font-size: 56px;
+		color:#Fff;
+		text-transform: capitalize;
+		text-align: center;
+		span{
+			border-bottom: 4px solid #fff;
+		}
+
+	}
+	.title-b{
+		height: 100%;
+		display: flex; 
+	}
+}
+
+@mixin text(){
+	.title-mxn{
+		display: inline-block;
+		font-size: 30px;
+		text-transform: capitalize;
+		padding: 8px 40px;
+		box-sizing: border-box;
+		border: 1px solid #000;
+		box-shadow: 0 0 2px;
+		font-weight: bold;
+	}
+	.fa-icon-mxn{
+		margin-top: 20px;
+	}
+	.text-mxn{
+
+		text-align: justify;
+		padding: 0 20px;
+		margin-top: 20px;
+		line-height: 1.5;
+		font-weight: bold;
+		font-size: 18px;
+
+	}
+}
+@mixin form(){
+	.form-input-mxn{
+
+    border: 1px solid grey;
+    box-sizing: border-box;
+    padding: 10px 5px;
+    margin: 10px;
+    width: 45%;
+	}
+}

@@ -1,0 +1,53 @@
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575px) { 
+form{
+	text-align: center
+}
+.form-input-mxn{
+	font-size: 12px;
+}
+}
+
+
+@media (max-width: 767px) { 
+.wrap-menu{
+	justify-content: center;
+	
+
+}
+
+.logo{
+	display: none
+}
+h2{
+	font-size: 36px !important;
+	text-align: center;
+}
+footer{
+padding: 30px 0;
+}
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991px) { 
+	.logo{
+	text-align: center;
+	}
+	.beer{
+		display: flex;
+		.beer-top{
+			order:-1;
+		}
+	}
+	.text-mxn{
+		margin-bottom: 20px;
+	}
+	.img-anim{
+		display: none;
+	}
+}
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199px) {
+
+ }

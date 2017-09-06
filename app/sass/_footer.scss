@@ -1,0 +1,33 @@
+footer{
+	padding: 80px 0;
+}
+@include form()
+.btn{
+	margin:10px;
+	padding: 10px 35px;
+	background: #04A068;
+	outline:none;
+	border:none;
+	cursor: pointer;
+	color: #fff ;
+
+}
+.form-input-mxn:focus{
+	border:1px solid #04A068;
+	outline: none;
+}
+.hours{
+	text-align: center;
+
+}
+.hours-title{
+	font-weight: bold;
+	font-size: 18px;
+	margin-bottom: 10px;
+	
+}
+.hours-item{
+	border-bottom: 2px solid #000;
+	padding: 10px 0;
+	text-align: left;
+}
